@@ -104,7 +104,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       <footer className="p-6 text-center text-white/80 sm:p-12">
       :pray: Thank You :bitcoin: {' '}
         <a
-          href="https://edelsonphotography.com/"
+          href="https://bitcoin.org/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
@@ -122,7 +122,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </a>
         , and{' '}
         <a
-          href="https://www.garysextonphotography.com/"
+          href="https://thenetworkstate.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
