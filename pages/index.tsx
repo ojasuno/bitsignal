@@ -62,14 +62,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               BitSignal One
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-            $1M in BTC to alert us to the stealth financial crisis.
-
+            $1M in BTC to alert us to the stealth financial crisis.<br></br>
             $1000 per tweet, for the best 1000.
-            
             Reply with your charts, graphs, stats, memes!
-            
             Bring attention to what is happening!            
-            
             Buy Bitcoin *now* and get your coins off exchanges.
             </p>
             <a
