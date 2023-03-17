@@ -120,7 +120,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         >
           🚀 The Network State
         </a>
-        , for{' '}
+        ,{' '}
         <a
           href="https://twitter.com/balajis/status/1636429773865095168?s=20"
           target="_blank"
@@ -129,7 +129,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         >
           🖖 The BitSignal
         </a>{' '}
-        .
+        💖
       </footer>
     </>
   )
