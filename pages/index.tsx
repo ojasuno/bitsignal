@@ -113,23 +113,23 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </a>
         ,{' '}
         <a
-          href="https://www.newrevmedia.com/"
-          target="_blank"
-          className="font-semibold hover:text-white"
-          rel="noreferrer"
-        >
-          Satoshi Nakamoto
-        </a>
-        , and{' '}
-        <a
           href="https://thenetworkstate.com/"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
           The Network State
+        </a>
+        , for{' '}
+        <a
+          href="https://twitter.com/balajis/status/1636429773865095168?s=20"
+          target="_blank"
+          className="font-semibold hover:text-white"
+          rel="noreferrer"
+        >
+          The BitSignal
         </a>{' '}
-        for The BitSignal.
+        .
       </footer>
     </>
   )
