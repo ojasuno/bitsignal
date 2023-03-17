@@ -61,12 +61,12 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               BitSignal One
             </h1>
-            <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-            $1M in BTC to alert us to the stealth financial crisis.<br /> 
-            $1000 per tweet, for the best 1000. 
-            Reply with your charts, graphs, stats, memes! 
-            Bring attention to what is happening! 
-            Buy Bitcoin *now* and get your coins off exchanges. 
+            <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch] justify-left">
+            $1M in BTC to alert us to the stealth financial crisis.<br />
+            $1000 per tweet, for the best 1000.<br /> 
+            Reply with your charts, graphs, stats, memes!<br /> 
+            Bring attention to what is happening!<br /> 
+            Buy Bitcoin *now* and get your coins off exchanges.<br /> 
             </p>
             <a
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
