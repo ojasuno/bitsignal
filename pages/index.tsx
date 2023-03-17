@@ -70,11 +70,11 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </p>
             <a
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
-              href="https://github.com/ojasuno/bitsignal"
+              href="https://twitter.com/balajis/status/1636435908164714496?s=20"
               target="_blank"
               rel="noreferrer"
             >
-              Clone and Deploy
+              Tweet & Submit
             </a>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
