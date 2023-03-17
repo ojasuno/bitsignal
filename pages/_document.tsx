@@ -8,7 +8,7 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="BitSignal One"
-            content="A website for The BitSignal"
+            content="A website for The BitSignal."
           />
           <meta property="og:site_name" content="https://www.bitsignal.one/" />
           <meta
@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content="BitSignal One" />
           <meta
             name="twitter:description"
-            content="A website for The BitSignal"
+            content="A website for The BitSignal."
           />
         </Head>
         <body className="bg-black antialiased">

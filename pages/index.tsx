@@ -59,20 +59,13 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             </div>
             <Logo />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
-              2022 Event Photos
+              BitSignal One
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-            The BitSignal
-            How do you ring the fire alarm on the internet?
-            How do you show it’s not a false alarm?
             $1M in BTC to alert us to the stealth financial crisis.
             $1000 per tweet, for the best 1000.
             Reply with your charts, graphs, stats, memes!
-            Bring attention to what is happening!
-            Because the central bank, the banks, and the bank regulators have bankrupted all of us.
-            They hid their insolvency from you, the depositors.
-            And they're about to print $2T to hyperinflate the dollar.
-            In the digital age this will happen very quickly.
+            Bring attention to what is happening!            
             Buy Bitcoin *now* and get your coins off exchanges.
             </p>
             <a
