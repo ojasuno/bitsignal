@@ -102,7 +102,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         </div>
       </main>
       <footer className="p-6 text-center text-white/80 sm:p-12">
-      🖖 Thank You {' '}
+      🧡 {' '}
         <a
           href="https://bitcoin.org/"
           target="_blank"
@@ -118,7 +118,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          The Network State
+          🚀 The Network State
         </a>
         , for{' '}
         <a
@@ -127,7 +127,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
           className="font-semibold hover:text-white"
           rel="noreferrer"
         >
-          The BitSignal
+          🖖 The BitSignal
         </a>{' '}
         .
       </footer>
