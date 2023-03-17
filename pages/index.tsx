@@ -62,8 +62,18 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               2022 Event Photos
             </h1>
             <p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-              Our incredible Next.js community got together in San Francisco for
-              our first ever in-person conference!
+            The BitSignal
+            How do you ring the fire alarm on the internet?
+            How do you show it’s not a false alarm?
+            $1M in BTC to alert us to the stealth financial crisis.
+            $1000 per tweet, for the best 1000.
+            Reply with your charts, graphs, stats, memes!
+            Bring attention to what is happening!
+            Because the central bank, the banks, and the bank regulators have bankrupted all of us.
+            They hid their insolvency from you, the depositors.
+            And they're about to print $2T to hyperinflate the dollar.
+            In the digital age this will happen very quickly.
+            Buy Bitcoin *now* and get your coins off exchanges.
             </p>
             <a
               className="pointer z-10 mt-6 rounded-lg border border-white bg-white px-3 py-2 text-sm font-semibold text-black transition hover:bg-white/10 hover:text-white md:mt-4"
