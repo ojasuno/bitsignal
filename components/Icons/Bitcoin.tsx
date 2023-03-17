@@ -14,7 +14,7 @@ export default function Bitcoin() {
         Bitcoin.
       </title>
       <g fill="none" fill-rule="evenodd">
-        <circle cx="310" cy="10" r="300" fill="#F7931A"/>
+        <circle cx="310" cy="160" r="300" fill="#F7931A"/>
         <path 
          fill="#FFF" 
           fill-rule="nonzero" 
