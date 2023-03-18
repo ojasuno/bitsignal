@@ -12,7 +12,7 @@ const BitcoinTicker: React.FC<BitcoinTickerProps> = ({ interval = 10000 }) => {
       const response = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd');
       const data = await response.json();
       const formattedPrice = data.bitcoin.usd.toLocaleString('en-US');
-      setPrice(`Bitcoin Price: $${formattedPrice}`);
+      setPrice(`1 ₿ = ${formattedPrice} USD`);
     };
 
     fetchPrice();
@@ -24,7 +24,7 @@ const BitcoinTicker: React.FC<BitcoinTickerProps> = ({ interval = 10000 }) => {
   return (
     <div style={{
       position: 'fixed',
-      top: 0,
+      bottom: 0,
       left: 0,
       width: '100%',
       backgroundColor: 'black',
