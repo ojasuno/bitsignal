@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { useEffect, useRef } from 'react'
 import Bitcoin from '../components/Icons/Bitcoin'
-import Logo from '../components/Icons/Logo'
+import BTC from '../components/BTC'
 import Modal from '../components/Modal'
 import cloudinary from '../utils/cloudinary'
 import getBase64ImageUrl from '../utils/generateBlurPlaceholder'
@@ -57,7 +57,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               </span>
               <span className="absolute left-0 right-0 bottom-0 h-[400px] bg-gradient-to-b from-black/0 via-black to-black"></span>
             </div>
-            {/* <Logo /> */}
+            <BTC />
             <h1 className="mt-8 mb-4 text-base font-bold uppercase tracking-widest">
               BitSignal One
             </h1>
@@ -75,6 +75,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
             >
               Tweet & Submit
             </a>
+
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
             <Link
@@ -86,7 +87,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
               className="after:content group relative mb-5 block w-full cursor-zoom-in after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight"
             >
               <Image
-                alt="Next.js Conf photo"
+                alt="BitSignal One"
                 className="transform rounded-lg brightness-90 transition will-change-auto group-hover:brightness-110"
                 style={{ transform: 'translate3d(0, 0, 0)' }}
                 placeholder="blur"
